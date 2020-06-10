@@ -194,9 +194,7 @@ namespace ColorCount
                             //Desenha a quantidade de cores
                             text = (bmp.colorCountList[colorIndex].ColorCount / divider).ToString("0.0");
                             g.DrawString(text, tableFont, colorList.BlackBrush, rt.Right + retSize + colorNameBigWidth, rt.Top + (rt.Height - tSize.Height) / 2);
-
                             //desenha a tag da cor dentro do retângulo da cor
-                           
                             g.DrawString(t, tableFont, colorList[colorIndex].TextBrush, rt.Left + (rt.Width  - tSize.Width) / 2, rt.Top + (rt.Height  - tSize.Height) / 2);
                         }
                         if (col < colTableCount)
@@ -205,7 +203,6 @@ namespace ColorCount
                         }
                         if (col == colTableCount)
                         {
-                            
                             row++;
                             col = 0;
                         }

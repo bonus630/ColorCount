@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace ColorCount
 {
-    public class ColorTag2
+    public class ColorTag
     {
         private Color whiteColor = Color.FromArgb(255,255,255);
         public SolidBrush whiteBrush, blackBrush;
